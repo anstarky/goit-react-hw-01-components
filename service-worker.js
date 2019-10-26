@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/anstarky/goit-react-hw-01-components.git/precache-manifest.9b2db97bfb5b4d8dda973f814d418399.js"
+  "/anstarky/goit-react-hw-01-components/precache-manifest.16c57d1f5fb5768f24156e782ecf2fa5.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/anstarky/goit-react-hw-01-components.git/index.html"), {
-
-  blacklist: [/^\/_/, /\/[^\/?]+\.[^\/]+$/],
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/anstarky/goit-react-hw-01-components/index.html"), {
+  
+  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
