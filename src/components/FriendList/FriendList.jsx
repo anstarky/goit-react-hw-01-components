@@ -1,15 +1,14 @@
 import React from 'react';
 import T from 'prop-types';
+import clsx from 'clsx';
 
 import styles from './FriendList.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => (
     <li className={styles.item}>
         <span className=
-            {`
-                ${styles.status}
-                ${isOnline ? styles.status__online : styles.status__offline}
-            `}>
+            {clsx(styles.status, isOnline ? styles.status__online : styles.status__offline)}
+        >
         </span>
         <img className={styles.avatar} src={avatar} alt={name} width="48" />
         <p className={styles.name}>{name}</p>

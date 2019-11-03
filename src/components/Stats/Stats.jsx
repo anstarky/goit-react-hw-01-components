@@ -4,7 +4,7 @@ import T from 'prop-types';
 import styles from './Stats.module.css';
 
 const Stats = ({ title, stats }) => (
-    <section className={styles.section}>
+    < section className={styles.section} >
 
         {title && <h2 className={styles.title}>{title}</h2>}
 
@@ -16,7 +16,7 @@ const Stats = ({ title, stats }) => (
                 </li>
             ))}
         </ul>
-    </section>
+    </section >
 );
 
 Stats.defaultProps = {

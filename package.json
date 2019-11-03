@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "clsx": "^1.0.4",
     "gh-pages": "^2.1.1",
     "normalize.css": "^8.0.1",
     "react": "^16.11.0",
@@ -17,7 +18,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/anstarky/goit-react-hw-01-components.git",
+  "homepage": "https://anstarky.github.io/goit-react-hw-01-components",
   "eslintConfig": {
     "extends": "react-app"
   },
